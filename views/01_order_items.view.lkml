@@ -17,7 +17,7 @@ view: order_items {
     description: "Identifier for the associated inventory item (hidden)"
     type: number
     hidden: yes
-    sql: ${TABLE}.inventory_item_id ;;
+    sql: ${TABLE}.inventory_item_id ;
   }
 
   dimension: user_id {
@@ -452,7 +452,7 @@ view: order_items {
   }
 
   measure: 30_day_repeat_purchase_rate {
-    description: "The percentage of customers who purchase again within 30 days"
+    description: "The percentage of customers who purchase again within 30 days. Measures buying propensity."
     view_label: "Repeat Purchase Facts"
     type: number
     value_format_name: percent_1
