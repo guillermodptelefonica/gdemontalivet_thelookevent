@@ -861,31 +861,32 @@
     width: 8
     height: 6
   filters:
-  - name: Cohorts
-    title: Cohorts
-    type: field_filter
-    default_value: ''
-    allow_multiple_values: true
-    required: false
-    ui_config:
-      type: button_group
-      display: popover
-      options: []
-    model: thelook
-    explore: ecomm_predict
-    listens_to_filters: []
-    field: ecomm_predict.centroid_label
-  - name: Created Month
-    title: Created Month
-    type: field_filter
-    default_value: 2 month ago for 2 month
-    allow_multiple_values: true
-    required: false
-    ui_config:
-      type: advanced
-      display: popover
-      options: []
-    model: thelook
-    explore: ecomm_predict
-    listens_to_filters: []
-    field: order_items.created_month
+  # - name: Cohorts
+#   title: Cohorts
+#   type: field_filter
+#   default_value: ''
+#   allow_multiple_values: true
+#   required: false
+#   ui_config:
+#     type: button_group
+#     display: popover
+#     options: []
+#   model: thelook
+#   explore: ecomm_predict
+#   listens_to_filters: []
+#   field: ecomm_predict.centroid_label
+
+# - name: Created Month
+#   title: Created Month
+#   type: field_filter
+#   default_value: 2 month ago for 2 month
+#   allow_multiple_values: true
+#   required: false
+#   ui_config:
+#     type: advanced
+#     display: popover
+#     options: []
+#   model: thelook
+#   explore: ecomm_predict
+#   listens_to_filters: []
+#   field: order_items.created_month
