@@ -2,7 +2,7 @@
   title: Brand Lookup
   layout: newspaper
   preferred_viewer: dashboards-next
-  query_timezone: user_timezone
+  #query_timezone: user_timezone ##BORRADO DEMO
   embed_style:
     background_color: "#f6f8fa"
     show_title: true

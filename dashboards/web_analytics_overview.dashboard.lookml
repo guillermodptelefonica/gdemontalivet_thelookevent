@@ -2,7 +2,7 @@
   title: Web Analytics Overview
   layout: newspaper
   preferred_viewer: dashboards-next
-  query_timezone: user_timezone
+  #query_timezone: user_timezone #query_timezone: user_timezone ##BORRADO DEMO
   preferred_slug: 2VgEQ4QWmU1qoZFiFsSd3K
   embed_style:
     background_color: ''

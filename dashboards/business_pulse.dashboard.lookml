@@ -3,7 +3,7 @@
   layout: newspaper
   preferred_viewer: dashboards
   description: ''
-  query_timezone: user_timezone
+  #query_timezone: user_timezone  ##BORRADO DEMO
   embed_style:
     background_color: "#f7f7f7"
     show_title: true
@@ -942,8 +942,8 @@
       State: users.state
       City: users.city
       Traffic Source: users.traffic_source
-      Gender: users.gender
-      Event Date: events.event_date
+      User Gender: users.gender
+      Date: events.event_date
       Country: users.country
     row: 26
     col: 10
