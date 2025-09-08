@@ -1,4 +1,5 @@
 view: user_order_facts {
+  #prueba
   view_label: "Users"
   derived_table: {
     sql:
